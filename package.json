@@ -1,0 +1,22 @@
+{
+  "name": "cssbuttongenerator",
+  "version": "1.0.0",
+  "description": "Easy to generate a cool cssbuttons!!",
+  "main": "genbtns.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshpandiyan1/cssbuttongenerator.git"
+  },
+  "keywords": [
+    "css","cssbuttons","javascript library","js","css-button","button","css3"
+  ],
+  "author": "suresh p",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sureshpandiyan1/cssbuttongenerator/issues"
+  },
+  "homepage": "https://github.com/sureshpandiyan1/cssbuttongenerator#readme"
+}
