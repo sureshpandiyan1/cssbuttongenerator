@@ -1,12 +1,8 @@
-
-
 function genBtns(ltrspacing, styles, btnsize)  {
   this.ltrspacing = ltrspacing,
   this.styles = styles;
   this.btnsize = btnsize;
 }
-
-genBtns.prototype = genBtns;
 
 genBtns.prototype.toHTML = function(theitems,thelists) {
   let count = 0;
@@ -59,7 +55,8 @@ function propBtns(ltrspacing, styles, btnsize, bids, ltrs) {
 }
 
 
-propBtns.prototype = propBtns;
+propBtns.prototype = new genBtns();
+propBtns.prototype.constructor = propBtns;
 
 const thepro = [
   ...allprops,
